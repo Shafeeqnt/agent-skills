@@ -1,17 +1,17 @@
 ---
-name: panapps-react-standards
-description: Use this for React components, pages, hooks, forms, and frontend refactors that should follow Panapps coding standards and review checklist.
+name: {{SKILL_NAME}}
+description: Use this for {{FRAMEWORK}} components, pages, hooks, forms, and frontend refactors that should follow Panapps coding standards and review checklist.
 ---
 
-# Panapps React Standards
+# Panapps {{FRAMEWORK_TITLE}} Standards
 
 ## What this skill does
-This skill helps the agent create and review React code using Panapps team conventions.
+This skill helps the agent create and review {{FRAMEWORK}} code using Panapps team conventions.
 
 ## When to use
 Use this skill when:
-- Building new React components
-- Refactoring existing React code
+- Building new {{FRAMEWORK}} components
+- Refactoring existing {{FRAMEWORK}} code
 - Reviewing pull requests
 - Improving readability, reusability, and performance
 - Checking folder structure and naming conventions
@@ -28,12 +28,11 @@ Do not use this skill for:
 - Any design reference or API contract if available
 
 ## Panapps rules
-- Prefer functional components
-- Prefer clear prop names over short abbreviations
+- Prefer clear prop and variable names over short abbreviations
 - Keep components small and reusable
 - Move repeated UI into shared components
-- Keep business logic out of JSX when possible
-- Use hooks carefully; avoid unnecessary re-renders
+- Keep business logic out of JSX or templates where possible
+- Use hooks/state management carefully; avoid unnecessary re-renders
 - Use meaningful folder and file names
 - Add loading, empty, and error states where needed
 - Follow existing project styling conventions before introducing new patterns
@@ -41,8 +40,8 @@ Do not use this skill for:
 ## Procedure
 1. Read the existing component or feature context.
 2. Identify whether the task is create, refactor, fix, or review.
-3. Check reusability, naming, state handling, and side effects.
-4. Suggest or apply improvements aligned with Panapps rules.
+3. Apply Panapps standards for {{FRAMEWORK}}.
+4. Suggest or implement improvements aligned with Panapps rules.
 5. Verify the output matches project patterns and does not introduce unnecessary complexity.
 
 ## Validation
@@ -54,8 +53,7 @@ A task is complete when:
 - The solution follows the project’s current architecture
 
 ## Common failure modes
-- Overusing useEffect
-- Keeping too much logic in one component
+- Overcomplicating a simple component
 - Introducing inconsistent naming
 - Breaking existing styling or folder conventions
 - Refactoring too aggressively without need
