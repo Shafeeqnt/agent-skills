@@ -1,5 +1,5 @@
 ---
-name: {{SKILL_NAME}}
+name: panapps-framework-standards
 description: Use this for {{FRAMEWORK}} components, pages, hooks, forms, and frontend refactors that should follow Panapps coding standards and review checklist.
 ---
 
